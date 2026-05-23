@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #222;
+  color: white;
+  padding: 15px 30px;
+}
+
+/* タイトル */
+header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* ナビ全体 */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* リンク */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ホバー */
+nav a:hover {
+  color: #4da6ff;
+}

@@ -1,0 +1,41 @@
+table {
+  border-collapse: collapse;
+  width: 540px;
+  aspect-ratio: 1/1;
+  min-width: 540px;
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+td {
+  border: 1px solid #222;
+  text-align: center;
+  aspect-ratio: 1/1;
+}
+td:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.month {
+  font-weight: bold;
+}
+.today {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+.day td {
+  text-align: center;
+  border: 1px solid #222;
+}
+.prev,
+.next {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.calendar {
+  width: 540px;
+  max-width: 100%;
+}
